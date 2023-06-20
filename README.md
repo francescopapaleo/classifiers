@@ -1,13 +1,23 @@
-# Deliverables for the Advanced Topics in SMC second assignment
+# Tensorflow, Keras and Scikit-learn tests
 
-**1. Classifier implementation with scikit-learn [notebook](./01_log_svm_mlp.ipynb)**
-    
-Logistic Regression, Support Vector Machines and Multi Layer Perceptron with a pipeline to structure categorical and numerical data.
+Various classification tests with Tensorflow, Keras and Scikit-learn.
 
-**2. Some more classification tests [notebook](./02_classifier_test.ipynb)**
-    
-This is a previous iteration than (1.), it shows other preprocessing pipelines that are probably less efficient and more prone to error. 
+## 1. Classification: Logistic Regression, SVM and MLP
 
-**3. Some tests with Keras [notebook](./03_keras.ipynb)**
+[Notebook](./01_logistic_regression_svm_mlp.ipynb)
 
-Testing the classification using Keras, experiment with models, loss functions and metrics.
+## 2. Train a classifier with scikit-learn
+
+[Notebook](./02_classifier_scikit_learn.ipynb)
+
+## 3. Keras Sequential Model
+
+[Notebook](./03_sequential_model.ipynb)
+
+## 4. Feature Extraction and Classification on Guitarset
+
+[Notebook](./04_guitarset_feature_extraction_classification.ipynb)
+
+## 5. Structured data classification from scratch
+
+[Notebook](./05_structured_data_classification.ipynb)
