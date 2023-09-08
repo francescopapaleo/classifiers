@@ -1,23 +1,25 @@
-# Tensorflow, Keras and Scikit-learn tests
+# Machine Learning Fundamentals
 
-Various classification tests with Tensorflow, Keras and Scikit-learn.
+This repository is a collection of notebooks to learn machine learning fundamentals and do some basic classification tasks.
 
-## 1. Classification: Logistic Regression, SVM and MLP
+## Setup
 
-[Notebook](./01_logistic_regression_svm_mlp.ipynb)
+```bash
+pip install -r requirements.txt
+```
 
-## 2. Train a classifier with scikit-learn
+## Notebooks
 
-[Notebook](./02_classifier_scikit_learn.ipynb)
+[1. Classification: Logistic Regression, SVM and MLP](./01_Logistic_Regression_SVM_MLP.ipynb)
 
-## 3. Keras Sequential Model
+[2. Train a classifier with scikit-learn](./02-Classifier_scikit_learn.ipynb)
 
-[Notebook](./03_sequential_model.ipynb)
+[3. Keras Sequential Model](./03-Keras_Sequential_Model.ipynb)
 
-## 4. Feature Extraction and Classification on Guitarset
+[4. Feature Extraction and Classification on Guitarset](./04-guitarset_feature_extraction_classification.ipynb)
 
-[Notebook](./04_guitarset_feature_extraction_classification.ipynb)
+[5. Collaborative Filtering Example on Listen Brainz](./05-implicit_collaborative_filtering.ipynb)
 
-## 5. Structured data classification from scratch
+## Fundamentals of Machine Learning
 
-[Notebook](./05_structured_data_classification.ipynb)
+The folder [fundamentals](./fundamentals) contains notebooks to learn the fundamentals of machine learning starting from linear algebra with NumPy and ending with neural networks basic blocks.
