@@ -23,3 +23,7 @@ pip install -r requirements.txt
 ## Fundamentals of Machine Learning
 
 The folder [fundamentals](./fundamentals) contains notebooks to learn the fundamentals of machine learning starting from linear algebra with NumPy and ending with neural networks basic blocks.
+
+## Feature Extractors
+
+The folder [feature_extractors](./feature_extractors) contains notebooks to learn how to extract features from audio files.
