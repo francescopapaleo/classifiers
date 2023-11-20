@@ -1,6 +1,6 @@
 # Machine Learning Fundamentals
 
-This repository is a collection of notebooks to learn machine learning fundamentals and do some basic classification tasks.
+This repository is a collection of notebooks to learn machine learning fundamentals and test those with some basic audio tasks.
 
 ## Setup
 
@@ -8,19 +8,33 @@ This repository is a collection of notebooks to learn machine learning fundament
 pip install -r requirements.txt
 ```
 
+## Folder Structure
+
+```
+.
+├── assets
+│   ├── arff
+│   └── processed
+├── data_modules
+├── examples
+├── feature_extractors
+├── fundamentals
+└── utils
+```
+
 ## Notebooks
 
-[1. Classification: Logistic Regression, SVM and MLP](./01_Logistic_Regression_SVM_MLP.ipynb)
+[1. Classification: Logistic Regression, SVM and MLP](./examples/01-logistic_regression_SVM_MLP.ipynb)
 
-[2. Train a classifier with scikit-learn](./02-Classifier_scikit_learn.ipynb)
+[2. Train a classifier with scikit-learn](./examples/02-classifier_scikit_learn.ipynb)
 
-[3. Keras Sequential Model](./03-Keras_Sequential_Model.ipynb)
+[3. Keras Sequential Model](./examples/03-keras_sequential_model.ipynb)
 
-[4. Feature Extraction and Classification on Guitarset](./04-guitarset_feature_extraction_classification.ipynb)
+[4. Feature Extraction and Classification on Guitarset](./examples/04-guitarset_feature_extraction_classification.ipynb)
 
-[5. Collaborative Filtering Example on Listen Brainz](./05-implicit_collaborative_filtering.ipynb)
+[5. Collaborative Filtering Example on Listen Brainz](./examples/05-listenbrainz_collaborative_filtering.ipynb)
 
-## Fundamentals of Machine Learning
+## Fundamentals of DSP and Machine Learning
 
 The folder [fundamentals](./fundamentals) contains notebooks to learn the fundamentals of machine learning starting from linear algebra with NumPy and ending with neural networks basic blocks.
 
