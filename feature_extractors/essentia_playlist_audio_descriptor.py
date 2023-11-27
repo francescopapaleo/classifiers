@@ -4,9 +4,9 @@ import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from extractors.style_labels import style_400_keys # This is a list of 400 style labels based on the Discogs dataset
+from feature_extractors.style_labels import style_400_keys # This is a list of 400 style labels based on the Discogs dataset
 
-class PlaylistAudioDescriptorsExtractor:
+class AmplabPlaylistAudioDescriptorsExtractor:
     '''
     This class is used to compute audio descriptors for a given audio file.
         It uses the following models:

@@ -5,7 +5,19 @@ import sys
 from pathlib import Path
 
 
-def resample_folder(file_path, target_fs):
+def resample_folder(file_path, target_fs) -> None:
+    """
+    Resamples all .wav files in a directory to a target sampling rate.
+    Saves the resampled files to a subdirectory named 'resampled' in the same directory.
+
+    Args:
+        file_path (str): Path to the directory containing the .wav files.
+        target_fs (int): Target sampling rate in Hz.
+
+    Returns:
+        None
+    """
+
     if not os.path.exists(file_path) or not os.path.isdir(file_path):
         print(f"Directory '{file_path}' does not exist or is not a directory.")
         return
