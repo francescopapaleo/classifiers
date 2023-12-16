@@ -1,28 +1,18 @@
-# Machine Learning Fundamentals
+# Audio Machine Learning
 
-This repository is a collection of notebooks to learn machine learning fundamentals and test those with some basic audio tasks.
+This repository contains various materials on audio machine learning.
+It's a work in progress, so there might be some errors and missing information.
+The materials are organized in folders, each one containing notebooks and/or scripts.
 
-## Setup
 
-```bash
-pip install -r requirements.txt
-```
+## Fundamentals
 
-## Folder Structure
+The folder [fundamentals](./fundamentals) contains notebooks to learn the basics of machine learning and audio signal processing.
 
-```
-.
-├── assets
-│   ├── arff
-│   └── processed
-├── data_modules
-├── notebooks
-├── feature_extractors
-├── fundamentals
-└── utils
-```
 
 ## Notebooks
+
+The folder [notebooks](./notebooks) contains some examples of machine learning algorithms applied to audio data. 
 
 [1. Classification: Logistic Regression, SVM and MLP](./notebooks/01-logistic_regression_SVM_MLP.ipynb)
 
@@ -34,10 +24,10 @@ pip install -r requirements.txt
 
 [5. Collaborative Filtering Example on Listen Brainz](./notebooks/05-listenbrainz_collaborative_filtering.ipynb)
 
-## Fundamentals of DSP and Machine Learning
+[6. Data Processing Tips](./notebooks/06-amplab_data_processing_tips.ipynb)
 
-The folder [fundamentals](./fundamentals) contains notebooks to learn the fundamentals of machine learning starting from linear algebra with NumPy and ending with neural networks basic blocks.
 
-## Feature Extractors
+## Feature Extraction and Classification
 
-The folder [feature_extractors](./feature_extractors) contains notebooks to learn how to extract features from audio files.
+The folder [feature_extractors](./feature_extractors) contains an example of how to use pre-trained models for feature extraction and classification of audio data.
+
