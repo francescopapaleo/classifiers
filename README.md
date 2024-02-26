@@ -1,8 +1,18 @@
-# Audio Machine Learning
+# Machine Learning for Music
 
 This repository contains various materials on audio machine learning.
 It's a work in progress, so there might be some errors and missing information.
 The materials are organized in folders, each one containing notebooks and/or scripts.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Fundamentals](#fundamentals)
+- [Notebooks](#notebooks)
+- [Feature Extraction and Classification](#feature-extraction-and-classification)
+
+## Installation
+
 
 
 ## Fundamentals
